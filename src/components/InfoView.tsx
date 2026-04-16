@@ -31,7 +31,7 @@ const InfoView = () => {
           GLOBAL GARDEN 1 <br /> 1273 - 12 ТООТ
         </p>
         <Image
-          src={"/assets/icons/info-signature.svg"}
+          src={"/assets/icons/info-signature.jpeg"}
           alt="info-sign"
           width={310}
           height={184}
