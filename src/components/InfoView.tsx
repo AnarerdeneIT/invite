@@ -26,9 +26,9 @@ const InfoView = () => {
           height={31}
           className="mb-5"
         />
-        <p className="text-5xl text-white text-center mb-5">ШИНЭ БАЙРНЫ ЦАЙЛЛАГА</p>
+        <p className="text-5xl text-white text-center mb-5">GENDER REVEAL</p>
         <p className="text-2xl text-white text-center mb-10">
-          GLOBAL GARDEN 1 <br /> 1273 - 12 ТООТ
+          {/* GLOBAL GARDEN 1 <br /> 1273 - 12 ТООТ */}
         </p>
         <Image
           src={"/assets/icons/info-signature.jpeg"}
