@@ -12,9 +12,9 @@
     "@react-hook/mouse-position": "^4.1.3",
     "firebase": "^11.6.1",
     "motion": "^12.9.7",
-    "next": "16.1.6",
-    "react": "^19.0.1",
-    "react-dom": "^19.0.1",
+    "next": "^16.2.4",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
     "sonner": "^2.0.3",
     "typed.js": "^2.1.0"
   },

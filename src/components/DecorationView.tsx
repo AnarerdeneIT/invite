@@ -46,7 +46,7 @@ const DecorationView = () => {
                         alt="bg"
                         height={180}
                         width={180}
-                        className="object-contain"
+                        className="object-contain w-[180px] h-auto"
                     />
                 </motion.div>
                 <motion.div
@@ -58,7 +58,7 @@ const DecorationView = () => {
                         alt="bg"
                         height={100}
                         width={160}
-                        className="object-contain"
+                        className="object-contain w-[160px] h-auto"
                     />
                 </motion.div>
                 <motion.div

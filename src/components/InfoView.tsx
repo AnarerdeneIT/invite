@@ -27,15 +27,17 @@ const InfoView = () => {
           className="mb-5"
         />
         <p className="text-5xl text-white text-center mb-5">GENDER REVEAL</p>
-        <p className="text-2xl text-white text-center mb-10">
+        <p className="text-2xl text-white text-center mb-5">
           {/* GLOBAL GARDEN 1 <br /> 1273 - 12 ТООТ */}
+          Гранд плаза <br />
+          Эрхи төв 2 давхарт
         </p>
         <Image
-          src={"/assets/icons/info-signature.jpeg"}
+          src={"/assets/icons/info_signature.png"}
           alt="info-sign"
-          width={310}
-          height={184}
-          className="mb-10"
+          width={380}
+          height={0}
+          className="mb-10 w-[380px] h-auto"
         />
         <div className="flex justify-center place-items-center flex-col mb-5">
           <p className="text-2xl text-white text-center">
@@ -45,6 +47,14 @@ const InfoView = () => {
             {PERSON_TYPE_TIME}
           </p>
         </div>
+
+        <Image
+          src={"/assets/icons/invite-nobg.png"}
+          alt="info-sign"
+          width={500}
+          height={0}
+          className="mb-10 w-[500px] h-auto"
+        />
 
         <Image
           src={"/assets/icons/info-2.svg"}
