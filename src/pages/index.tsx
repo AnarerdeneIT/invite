@@ -3,17 +3,21 @@ import InfoContainer from "@/Containers/InfoContainer";
 import TextContainer from "@/Containers/TextContainer";
 import useData from "@/hooks/useData";
 import { PageType } from "@/types";
-import localFont from "next/font/local";
+import { Philosopher, Montserrat_Alternates } from "next/font/google";
 import { ReactNode } from "react";
 
-const philosopherSans = localFont({
-  src: "../../public/assets/fonts/Philosopher-Bold.ttf",
+const philosopherSans = Philosopher({
   variable: "--font-philosopher-sans",
+  weight: "700",
+  subsets: ["cyrillic"],
+  display: "swap",
 });
 
-const montserratMono = localFont({
-  src: "../../public/assets/fonts/MontserratAlternates-SemiBold.ttf",
+const montserratMono = Montserrat_Alternates({
   variable: "--font-montserrat-alternates",
+  weight: "600",
+  subsets: ["cyrillic"],
+  display: "swap",
 });
 
 const Home = () => {
