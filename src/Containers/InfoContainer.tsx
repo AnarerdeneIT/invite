@@ -16,7 +16,7 @@ const InfoContainer = () => {
     }
 
     return <><div
-        className={`bg-${PERSON_TYPE_COLOR} flex justify-center h-screen cursor-pointer overflow-scroll`} onClick={onPressSendInfo}
+        className={`bg-${PERSON_TYPE_COLOR} flex justify-center h-screen cursor-pointer overflow-scroll`}
     >
         <main className="bg-orange-100 w-[794] h-screen min-h-[900] relative flex justify-center place-items-center">
             <TopView />
