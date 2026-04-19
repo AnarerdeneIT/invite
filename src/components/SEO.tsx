@@ -7,8 +7,8 @@ type Props = {
   image?: string;
 };
 const InitialData = {
-  title: "Invitation",
-  description: "House warming invitation from Batmagnai and Ariunjargal",
+  title: "Gender Reveal",
+  description: "You're invited to our Gender Reveal party!",
   image: '/invite.png',
 };
 const SEO: FC<Props> = ({ title, description, image }) => {
